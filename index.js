@@ -27,7 +27,6 @@ app.get('/:server', function (req, res) {
   } else {
     res.send("Invalid Server")
   }
-
 })
 
 app.get('/', function(req, res) {
